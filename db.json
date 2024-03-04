@@ -1,0 +1,12 @@
+{
+  "id": 3,
+  "nome": "Fulano Abc",
+  "endereco": "Rua teste numero 12 quadra 2 lote 9",
+  "bairro": "Centro",
+  "telefones": [
+      {
+          "id": 3,
+          "numero": "5564999999999"
+      }
+  ]
+}
