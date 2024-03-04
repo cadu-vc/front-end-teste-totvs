@@ -21,7 +21,7 @@ export class AppComponent {
   constructor(
     private formBuilder: FormBuilder,
     private apiService: ApiService,
-    private poNotification: PoNotificationService // Injeta o PoNotificationService
+    private poNotification: PoNotificationService 
     ) {
       this.clienteForm = this.formBuilder.group({
         id: [null],
@@ -105,7 +105,7 @@ export class AppComponent {
         this.apiService.buscarClientes().subscribe({
           next: (response) => {
             console.log(response);
-            this.clientesDb = response; // Armazena os clientes do banco de dados na variável clientesDb
+            this.clientesDb = response; 
           },
           error: (error) => {
             console.error('Erro ao buscar clientes:', error);
